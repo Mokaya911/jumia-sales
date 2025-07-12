@@ -1,5 +1,6 @@
-# Jumia Sales Analysis
-This project analyzes sales data from Jumia to identify trends and insights.
+# 🛍️ Jumia Sales Data Analysis
+
+This project analyzes Jumia's product sales data to uncover trends, performance metrics, and customer preferences. It's useful for data-driven decision-making in e-commerce.
 
 ## Tools Used
 - Python
@@ -11,5 +12,24 @@ This project analyzes sales data from Jumia to identify trends and insights.
 - Open the Jupyter Notebook in the repository.
 - Follow the steps in the notebook to run the analysis.
 
-## Results
-- [Describe key findings, e.g., "Identified top-selling products and visualized sales trends."]
+
+
+## 📊 Key Features
+- Product category sales breakdown
+- Top selling items & peak periods
+- Customer purchasing behavior
+- Seasonal trends
+
+## 📁 Project Structure
+- `jumia_sales_clean.csv` – cleaned dataset
+- `jumia_analysis.ipynb` – full analysis in Jupyter Notebook
+- `plots/` – charts saved for presentation
+
+## 📌 Sample Output
+![Category Sales Chart](plots/category_sales.png)
+
+## 🧪 Requirements
+Install required Python packages:
+```bash
+pip install pandas matplotlib seaborn jupyter
+
